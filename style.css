@@ -1,0 +1,73 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+  margin: 0;
+  padding: 2rem;
+  color: #004d40;
+}
+
+.main-container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.center {
+  text-align: center;
+}
+
+.brand {
+  color: #00796b;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 12px;
+  width: 100%;
+}
+
+.btn {
+  background: #00796b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #004d40;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #00796b;
+  color: #00796b;
+}
+
+.btn-outline:hover {
+  background: #00796b;
+  color: white;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #e0f2f1;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}

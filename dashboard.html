@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+</head>
+<body onload="checkAuth()">
+  <div class="main-container">
+    <h2>Welcome to CodeAcademy 🚀</h2>
+    <p>Select a course to start:</p>
+    <div class="card-grid">
+      <div class="card">
+        <h3>C Programming</h3>
+        <a href="lesson_c.html" class="btn">Start</a>
+      </div>
+      <div class="card">
+        <h3>Python Programming</h3>
+        <a href="lesson_python.html" class="btn">Start</a>
+      </div>
+      <div class="card">
+        <h3>Java Programming</h3>
+        <a href="lesson_java.html" class="btn">Start</a>
+      </div>
+    </div>
+    <br>
+    <button class="btn btn-outline" onclick="logout()">Logout</button>
+  </div>
+</body>
+</html>
